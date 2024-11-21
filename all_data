@@ -1,0 +1,20 @@
+# Navigate to the parent directory
+cd C:\Users\user\Desktop
+
+# Initialize Git in the folder
+git init
+
+# Add the remote GitHub repository
+git remote add origin https://github.com/Claraadel/BoE-speeches-sentiment-Economic-Indicators.git
+
+# Stage the folder
+git add all_data
+
+# Commit the changes
+git commit -m "all_data"
+
+# Rename branch to main (if needed)
+git branch -M main
+
+# Push to GitHub
+git push -u origin main
